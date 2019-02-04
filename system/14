@@ -1,0 +1,5 @@
+#!/bin/sh
+
+## 14. run in the background.
+
+echo "tail -f /var/log/syslog &"

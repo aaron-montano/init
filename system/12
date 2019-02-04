@@ -1,0 +1,5 @@
+#!/bin/sh
+
+## 12. figure out the exact size of each folder of /var
+
+echo "du /var | less | cut -d'.' -f1"

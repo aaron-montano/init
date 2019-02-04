@@ -1,0 +1,4 @@
+#!/bin/sh
+## 01. Get the list of the network interfaces of the machone without displaying any detail for these interfaces
+# only the list of names.
+ifconfig -l

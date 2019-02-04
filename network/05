@@ -1,0 +1,3 @@
+#!/bin/sh
+## 05. Identify the IP address of the DNS that responds to the follwoing url: slash16.org
+nslookup slash16.org | grep "Address:" | cut -s -d " " -f2

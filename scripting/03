@@ -1,0 +1,6 @@
+#!/bin/sh
+
+## 03. Write a script which displays the list of files
+## from the foler given as a parameter, sorted by size.
+
+ls -lSh $1

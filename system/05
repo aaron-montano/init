@@ -1,0 +1,4 @@
+#!/bin/sh
+## 05. Name the command that determines the state of the SSH service.
+#
+echo "sudo etc/init.d/ssh status"

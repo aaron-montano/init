@@ -1,0 +1,3 @@
+#!/bin/sh
+## 02. What command can you use to rename your system?
+echo "hostname NEW_NAME"

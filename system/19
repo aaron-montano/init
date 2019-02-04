@@ -1,0 +1,4 @@
+#!/bin/sh
+
+## 19. With the previous command, forbid all others. 
+echo "iptables -A INPUT -p tcp --dport 22 -j DROP"

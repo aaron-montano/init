@@ -1,0 +1,5 @@
+#!/bin/sh
+
+## 13. name the command that finds currently running processes.
+
+echo "ps -A | less"

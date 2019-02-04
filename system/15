@@ -1,0 +1,5 @@
+#!/bin/sh
+
+## 15. Find the command that kills the background command's processes.
+
+echo "pkill -9 tail"

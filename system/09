@@ -1,0 +1,5 @@
+#!/bin/sh
+
+## 09. What command line lets you know who is connected to the system?
+
+who | cut -d' ' -f1 | sort | uniq

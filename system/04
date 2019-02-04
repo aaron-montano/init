@@ -1,0 +1,4 @@
+#!/bin/sh
+## 04. What command gives you the time since your system was last booted?
+#
+echo uptime

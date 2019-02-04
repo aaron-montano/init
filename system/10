@@ -1,0 +1,6 @@
+#!/bin/sh
+
+## 10. name the command that lists the partition tables of external devices.
+
+cat "sudo fdisk -l"
+

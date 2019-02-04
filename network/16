@@ -1,0 +1,4 @@
+## 16.  Make the 46.19.122.85 address reroute to intra.42.fr
+echo 'intra.42.fr 46.19.122.85' >> /etc/hosts
+
+# permission denied, no sudo rights

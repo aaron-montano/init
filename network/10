@@ -1,0 +1,3 @@
+#!/bin/sh
+## 10. Identify the network devices between your comupter and the slash16.org domain.
+route -n get slash16.org | grep interface | awk '{print $2}'

@@ -1,0 +1,4 @@
+#!/bin/sh
+##  03. What file has to be modified to make it permanent?
+#
+echo "'/etc/hostname' must be changed to make it permanent." 

@@ -1,0 +1,7 @@
+#!/bin/sh
+## 09. Find the external IP of 42.fr
+#dig 42.fr @8.8.8.8 | grep 42.fr | tail -n8 | awk '{print$5}'
+
+echo 163.172.250.12
+echo 163.172.250.13
+echo 163.172.250.11

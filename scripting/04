@@ -1,0 +1,17 @@
+#!/bin/sh
+
+## 04. Write a script which monitors the modifications
+## made to the /etc/crontab file and sends an email to root
+## if the file is modified. Create a scheduled task to run
+## this script everyday at midnight.
+
+echo " 0 0 * * * $(pwd)/04" >> /etc/crontab
+file=/etc/crontab
+IFS= read -r line
+md5sum='md5sum $file | awk '{print$1}''
+
+$IFS < $md5sum
+if [ $md5sum == $line]
+	echo "File has not been modified"
+else
+	echo "$md5sum" | mail -s "Crontab was modified" root

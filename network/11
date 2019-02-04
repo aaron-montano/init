@@ -1,0 +1,4 @@
+## 11. use the output of the previous command to find the name and the IP address of the
+# device that makes the ink between you (local network) and the outside world.
+#
+## The name of the interface that connects the LAN to the Web is en0. The IP is 10.112.5.37
